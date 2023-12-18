@@ -4,6 +4,8 @@ if unit == "F":
     temp = round((temp - 32) * 5 / 9, 2)
     print("攝氏", temp, "度")
 
-else:
+elif unit == "C":
     temp = round((temp * 5 / 9) + 32, 2)
     print("華氏", temp, "度")
+else:
+    print("輸入錯誤!")
